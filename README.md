@@ -6,16 +6,26 @@ docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpasswo
 
 **Open it in an interactive shell**
 
+```bash
+docker exec -it some-postgres bash
+```
+
 - change to user ‘postgres’
   su postgres
 
 - run the psql
   psql
 
-- check databases
+- list all databases
   \l
 
-- check connection info
+- Create a database
+  CREATE DATABASE "student"
+
+- Connect to "student" db
+  \c student
+
+- Check connection info
   \conninfo
 
 - quit
