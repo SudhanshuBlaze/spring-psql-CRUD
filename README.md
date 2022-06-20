@@ -20,7 +20,7 @@ docker exec -it some-postgres bash
   `\l`
 
 - Create a database \
-  `CREATE DATABASE "student"`
+  `CREATE DATABASE "student";`
 
 - Connect to "student" db \
   `\c student`
