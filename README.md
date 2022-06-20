@@ -19,8 +19,11 @@ docker exec -it some-postgres bash
 - list all databases \
   `\l`
   
-- show relations \
+- show all relations \
   `\d` 
+  
+- Schema of the relation "student"
+  `\d student`
 
 - Create a database \
   `CREATE DATABASE "student";`
