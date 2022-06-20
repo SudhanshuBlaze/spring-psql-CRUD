@@ -21,6 +21,9 @@ docker exec -it some-postgres bash
 
 - Create a database \
   `CREATE DATABASE "student";`
+  
+- Grant user privileges
+  `GRANT ALL PRIVILEGES ON DATABASE "student" TO postgres;`
 
 - Connect to "student" db \
   `\c student`
